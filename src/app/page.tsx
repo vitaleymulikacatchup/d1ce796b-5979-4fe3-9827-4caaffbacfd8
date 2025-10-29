@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Award, Camera, Crown, DollarSign, Eye, Mail, MessageCircle, Star, Users, Zap } from "lucide-react";
+import { Award, Camera, Crown, DollarSign, Eye, Globe, Instagram, Mail, MessageCircle, Star, Users, Zap } from "lucide-react";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -170,8 +170,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/17858618/pexels-photo-17858618.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Alex Morrison",
               socialLinks: [
-                { icon: "Instagram", url: "https://instagram.com/alexmorrison" },
-                { icon: "Globe", url: "https://alexmorrison.photography" }
+                { icon: Instagram, url: "https://instagram.com/alexmorrison" },
+                { icon: Globe, url: "https://alexmorrison.photography" }
               ]
             }
           ]}
